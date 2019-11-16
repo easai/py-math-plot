@@ -74,7 +74,7 @@ def laplace(a):
     l.append('Laplace')
 
 # TODO merge branches
-laplace(math.sqrt(2))
+# laplace(math.sqrt(2))
 
 def lightrighttail():
     n = 1.5
@@ -82,7 +82,7 @@ def lightrighttail():
     plt.plot(y0,yright)
     l.append(f"{n=} right thinner")
 
-# lightrighttail()
+lightrighttail()
 
 def lightlefttail():
     n=.5
@@ -90,9 +90,10 @@ def lightlefttail():
     plt.plot(y0,yleft)
     l.append("n=.5 left thinner")
 
+lightlefttail()
 
 plt.legend(l)
-# plt.xlim(-3,3)
+# plt.xlim(-30,30)
 # plt.ylim(-30,30)
 plt.xlabel("x")
 plt.ylabel("f(x)")
