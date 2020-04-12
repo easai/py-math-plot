@@ -1,5 +1,5 @@
 # py-math-plot
-Various math function plot
+A collection of various math function plot
 
 ![Exponential Distribution PDF](images/exponential-pdf.png)
 
